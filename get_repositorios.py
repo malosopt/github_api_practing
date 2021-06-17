@@ -1,6 +1,6 @@
 import requests
 import json
-#import pprint
+
 # First Step:
 # Go to the github page
 # developer github oauth -- registrar app github Oauth
@@ -11,7 +11,6 @@ client_id = 'bf186ec51be5654b29df'
 access_token = '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'
 access_token_modifiy = 'token ' + access_token
 headers = {'Authorization':access_token_modifiy}
-
 
 # Consultar repositorios
 ruta = 'https://api.github.com/user/repos'
