@@ -7,18 +7,22 @@ import json
 
 client_secret = '1035d0e424c9828e39d6b19f92a5ec82e3ea21c0'
 client_id = 'bf186ec51be5654b29df'
-
 access_token = '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'
+
+# CURL instruccion
+#$ curl -H "Authorization: token OAUTH-TOKEN" https://api.github.com/user/repos
 access_token_modifiy = 'token ' + access_token
 headers = {'Authorization':access_token_modifiy}
+# pasas access_token por headers
 
 # Consultar repositorios
 ruta = 'https://api.github.com/user/repos'
 
 response = requests.get(ruta,headers=headers)
 print(response.status_code)
+
 #archivo-salida.py
-f = open ('archivo.json','w')
+f = open ('archivo.json','w') #w write
 f.write(response.text)
 f.close()
 
