@@ -32,6 +32,7 @@ payload = {'client_id':client_id,
 headers = {'Accept':'application/json'}
 ruta = 'https://github.com/login/oauth/access_token'
 
+
 respuesta = (requests.post(ruta,payload,headers=headers))
 print(respuesta.status_code)
 print(respuesta.json())
