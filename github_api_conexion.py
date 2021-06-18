@@ -17,7 +17,7 @@ print(respuesta.status_code)
 print(respuesta.url)
 
 code = input('Please input the code from url: ')
-#https://github.com/login?client_id=bf186ec51be5654b29df&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dbf186ec51be5654b29df%26client_secret%3D1035d0e424c9828e39d6b19f92a5ec82e3ea21c0
+#https://github.com/login?client_id=bf186ec51be5654b29df&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%XXXXXXXXXXXXXXXclient_secret%YYYYYYYYYYYYYYYYYYY
 #Abrimos la url en el navegador, autorizamos el uso de la app
 
 #https://www.google.com.co/?code=a4eaffc3a260ec7fad1c
