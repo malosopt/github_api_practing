@@ -5,9 +5,9 @@ import json
 # Go to the github page
 # developer github oauth -- registrar app github Oauth
 
-client_secret = '1035d0e424c9828e39d6b19f92a5ec82e3ea21c0'
-client_id = 'bf186ec51be5654b29df'
-access_token = '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'
+client_secret = 'XXXXXXXXXXXXXXXXXXXXXXX'
+client_id = 'YYYYYYYYYYYYYYYYYYYY'
+access_token = 'ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ'
 
 # CURL instruccion
 #$ curl -H "Authorization: token OAUTH-TOKEN" https://api.github.com/user/repos
