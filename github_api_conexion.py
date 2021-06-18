@@ -6,8 +6,8 @@ import json
 # Go to the github page
 # developer github oauth -- registrar app github Oauth
 
-client_secret = '1035d0e424c9828e39d6b19f92a5ec82e3ea21c0'
-client_id = 'bf186ec51be5654b29df'
+client_secret = 'XXXXXXXXXXXXXXXXXXXX'
+client_id = 'YYYYYYYYYYYYYYYYYYY'
 
 ruta = 'https://github.com/login/oauth/authorize'
 payload = {'client_id':client_id }#,'client_secret':client_secret}
